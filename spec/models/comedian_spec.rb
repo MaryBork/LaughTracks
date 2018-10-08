@@ -11,5 +11,7 @@ RSpec.describe Comedian do
         expect(comic).to_not be_valid
       end
     end
+
+
   end
 end

@@ -1,0 +1,30 @@
+<html>
+<head>
+  <LINK rel=stylesheet type="text/css" href="/main.css">
+</head>
+
+
+  <% @comedians.each do |comedian| %>
+    <ul>
+      <li> <%= comedian.name%></li>
+      <li> <%= comedian.age%> Years Old</li>
+      <li> City: <%= comedian.city%></li>
+      <% comedian.specials.each do |special| %>
+      <li>  <%= special.name%></li>
+      <li>  <%= special.run_time%>min</li>
+      <li>
+        <img src="<%= special.image_url %>" width='300' height ='300'>
+      </li>
+      <% end %>
+    </ul>
+  <% end %>
+
+
+
+
+
+
+
+
+
+  </html>

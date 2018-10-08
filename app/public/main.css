@@ -1,0 +1,20 @@
+
+
+ ul {
+   list-style: none;
+   margin: 10;
+   padding: 40px;
+   display: inline-block;
+   float: center;
+   text-align: center;
+   background-color: plum;
+   border: 6px solid yellow;
+   font-family: monospace;
+   font-size: 14;
+   font-weight: bold;
+   color: white;
+   border-radius: 25px;
+
+
+
+ }
